@@ -1,0 +1,10 @@
+auth-app-backend/node_modules/
+auth-app-backend/dist/
+auth-app-frontend/node_modules/
+auth-app-frontend/build/
+.DS_Store
+.env
+.vscode/
+.idea/
+*.log
+auth-app-backend/.env
