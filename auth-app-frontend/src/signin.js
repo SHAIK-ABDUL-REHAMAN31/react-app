@@ -13,8 +13,6 @@ export default function Signin() {
     setEmail("");
     setpassword("");
 
-    console.log(response.data);
-
     const { user } = response.data;
     if (user && user.token) {
       alert(`Signin Successful! Welcome ${user.username}`);
